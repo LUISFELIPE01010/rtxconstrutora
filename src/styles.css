@@ -77,8 +77,8 @@
 .rtx-hero-copy{width:72%;max-width:720px}
 .rtx-hero-copy h1{line-height:1.08}
 .rtx-hero-panel{position:absolute;right:0;top:30px;bottom:30px;width:235px;padding:10px 22px;background:var(--panel-background);backdrop-filter:blur(5px);display:flex;flex-direction:column;justify-content:center}
-.rtx-service-rail{display:grid;grid-template-columns:2.05fr repeat(5,1fr);gap:0;align-items:start}
-.rtx-rail-heading h2{font-size:23px}
-@media(min-width:1440px){.container-x{max-width:1600px}.rtx-hero{min-height:510px}.rtx-hero-inner{min-height:510px}.rtx-hero-copy{max-width:760px}.rtx-hero-panel{width:250px}}
+.rtx-service-rail{display:grid;grid-template-columns:2.5fr repeat(5,1fr);gap:0;align-items:start}
+.rtx-rail-heading h2{font-size:21px}
+@media(min-width:1440px){.container-x{max-width:1600px}.rtx-hero{min-height:510px}.rtx-hero-inner{min-height:510px}.rtx-hero-copy{max-width:760px}.rtx-hero-panel{width:250px}.rtx-rail-heading h2{font-size:25px}}
 @media(min-width:768px) and (max-width:1199px){.rtx-hero-panel{display:none}.rtx-hero-copy{width:85%;max-width:680px}.rtx-service-rail{grid-template-columns:repeat(3,1fr);gap:28px}.rtx-rail-heading{grid-column:1/-1}.rtx-hero-photo img{object-position:62% center}.rtx-hero-overlay{background:linear-gradient(90deg,var(--carbon),color-mix(in oklab,var(--carbon) 72%,transparent),color-mix(in oklab,var(--carbon) 25%,transparent))}}
 @media(max-width:767px){.rtx-hero{display:flex;flex-direction:column;min-height:0}.rtx-hero-inner{min-height:0;order:0;padding-block:40px}.rtx-hero-copy{width:100%}.rtx-hero-copy h1{font-size:36px;line-height:1.16}.rtx-hero-photo{position:relative;order:1;inset:auto;z-index:auto;display:block}.rtx-hero-photo img{display:block;height:auto;aspect-ratio:1920/1088;object-fit:contain}.rtx-hero-overlay,.rtx-hero-panel{display:none}.rtx-service-rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 0}.rtx-rail-heading{grid-column:1/-1;margin-bottom:6px}.rtx-rail-heading h2{font-size:24px}.rtx-service-rail>a{padding-inline:14px}.rtx-service-rail>a:last-child{grid-column:1/-1}.eyebrow{font-size:10px}.section{padding-block:64px}}
