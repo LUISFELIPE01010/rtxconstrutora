@@ -48,7 +48,7 @@
   .eyebrow { display:inline-flex; align-items:center; gap:.75rem; color:var(--brand); font-size:.7rem; line-height:1; font-weight:600; letter-spacing:0; text-transform:uppercase; }
   .eyebrow::before { content:""; width:2.8rem; height:2px; background:currentColor; }
   .eyebrow-light { color:var(--carbon-foreground); }
-  .btn-base { display:inline-flex; min-height:3rem; align-items:center; justify-content:center; gap:.65rem; padding:.8rem 1.35rem; border-radius:999px; font-family:var(--font-sans); font-size:.72rem; font-weight:600; letter-spacing:0; text-transform:uppercase; transition:transform .2s ease,background .2s ease,color .2s ease,border-color .2s ease; }
+  .btn-base { display:inline-flex; min-height:3rem; align-items:center; justify-content:center; gap:.65rem; padding:.8rem 1.35rem; border-radius:999px!important; font-family:var(--font-sans); font-size:.72rem; font-weight:600; letter-spacing:0; text-transform:uppercase; transition:transform .2s ease,background .2s ease,color .2s ease,border-color .2s ease; }
   .btn-base:hover { transform:translateY(-2px); }
   .btn-primary { background:var(--brand); color:var(--brand-foreground); border:1px solid var(--brand); }
   .btn-outline-light { border:1px solid color-mix(in oklab,var(--carbon-foreground) 55%,transparent); color:var(--carbon-foreground); }
