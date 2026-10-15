@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "2e604759-0d72-49fc-b6da-f5a50ed8ef59",
-  "project_id": "3651b129-ef29-4748-b1b7-3964356f392f",
-  "url": "/__l5e/assets-v1/2e604759-0d72-49fc-b6da-f5a50ed8ef59/r3-hero-oficial-4-800.webp",
-  "r2_key": "a/v1/3651b129-ef29-4748-b1b7-3964356f392f/2e604759-0d72-49fc-b6da-f5a50ed8ef59/r3-hero-oficial-4-800.webp",
-  "original_filename": "r3-hero-oficial-4-800.webp",
-  "size": 47734,
   "content_type": "image/webp",
-  "created_at": "2026-09-22T01:24:02Z"
+  "created_at": "2026-09-22T01:24:02Z",
+  "original_filename": "r3-hero-oficial-4-800.webp",
+  "project_id": "d0b9d63c-0365-454e-92ee-6b5b8c7c5a0b",
+  "r2_key": "a/v1/d0b9d63c-0365-454e-92ee-6b5b8c7c5a0b/2e604759-0d72-49fc-b6da-f5a50ed8ef59/r3-hero-oficial-4-800.webp",
+  "size": 47734,
+  "url": "/__l5e/assets-v1/2e604759-0d72-49fc-b6da-f5a50ed8ef59/r3-hero-oficial-4-800.webp",
+  "version": 1
 }
