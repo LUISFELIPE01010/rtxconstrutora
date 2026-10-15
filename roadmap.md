@@ -1,16 +1,4 @@
-# R3 Usinagem redesign
-- [x] Apply R3 visual system and shared site chrome
-- [x] Rebuild Home and requested content sections
-- [x] Rebuild About, Services, Portfolio, Safety, and Contact pages
-- [x] Add validated quote form, map, cookie notice, and WhatsApp actions
-- [x] Add per-page metadata and local business structured data
-- [x] Validate desktop/mobile layouts and main interactions
-- [x] Distribute seven uploaded photos in Home and relevant sections, optimize responsive WebP variants for Vercel, and verify rendering
-- [x] Show complete photos on mobile/tablet and lighten secondary page covers
-- [x] Replace field-machining photo with the uploaded image
-- [x] Offer prefilled quote handoffs via email and WhatsApp
-- [x] Verify photos and both quote actions across screen sizes
-- [x] Confirm (13) 98835-5067 is available in site contact areas
-
-- [x] Correct desktop content-photo cropping and keep final CTA images behind text on mobile; verify across pages.
-- [x] Keep home and all secondary cover titles over their images on mobile/tablet and verify all six pages.
+- [ ] Adaptar identidade, topo e conteúdo de todas as páginas para RTX.
+- [ ] Substituir fotos R3 por imagens genéricas otimizadas e preservar compatibilidade Vercel.
+- [ ] Atualizar contato, orçamento WhatsApp e informações de busca sem dados antigos.
+- [ ] Verificar navegação, orçamento e apresentação em computador, tablet e celular.
