@@ -1,2 +1,2 @@
-import { MessageCircle } from "lucide-react"; import { WHATSAPP_URL } from "@/lib/r3";
-export function WhatsAppFab(){return <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="Falar com a R3 no WhatsApp" className="fixed bottom-5 right-5 z-40 grid h-14 w-14 place-items-center rounded-full bg-whatsapp text-carbon-foreground shadow-2xl transition-transform hover:scale-105 md:bottom-7 md:right-7"><MessageCircle className="h-7 w-7"/></a>}
+import { MessageCircle } from "lucide-react"; import { WHATSAPP_URL } from "@/lib/rtx";
+export function WhatsAppFab(){return <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="Falar com a RTX no WhatsApp" className="fixed bottom-5 right-5 z-40 grid h-14 w-14 place-items-center rounded-full bg-whatsapp text-carbon-foreground shadow-2xl transition-transform hover:scale-105 md:bottom-7 md:right-7"><MessageCircle className="h-7 w-7"/></a>}

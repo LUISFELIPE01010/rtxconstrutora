@@ -3,7 +3,7 @@ export function Faq() {
   return (
     <section className="section bg-mist" aria-labelledby="faq-title">
       <div className="container-x grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
-        <div><span className="eyebrow">Perguntas frequentes</span><h2 id="faq-title" className="mt-5 text-4xl sm:text-5xl">Dúvidas sobre usinagem industrial em Cubatão e região.</h2></div>
+        <div><span className="eyebrow">Perguntas frequentes</span><h2 id="faq-title" className="mt-5 text-4xl sm:text-5xl">Dúvidas sobre os serviços da RTX.</h2></div>
         <div className="divide-y divide-steel/40 border-y border-steel/40">
           {faqs.map((f) => (
             <details key={f.q} className="group py-5">
