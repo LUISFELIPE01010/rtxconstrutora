@@ -14,5 +14,5 @@
 - Content photos preserve their intrinsic aspect ratio at every viewport, with portfolio captions in normal flow; home and secondary page covers and final CTA banners use an overlaid background at every viewport to keep image and text integrated.
 - Quote requests are validated client-side WhatsApp handoffs with URL-encoded fields; no simulated send, persistence, or unconfirmed email destination.
 - Brand facts and service/gallery data are centralized in `src/lib/rtx.ts` so all pages share the current company information.
-- The home cover stacks its text and photograph on mobile as requested; secondary covers and final CTA retain overlaid photographs.
+- All covers and final CTA banners keep absolutely positioned photographs behind text at every viewport; mobile overlays share a semantic readability token to avoid detached images and inconsistent contrast.
 - SEO canonical URLs and sitemap are enabled only by a confirmed `VITE_PUBLIC_SITE_URL` to avoid assigning the previous company domain to a new brand.
