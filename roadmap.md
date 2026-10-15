@@ -1,4 +1,4 @@
-- [ ] Adaptar identidade, topo e conteúdo de todas as páginas para RTX.
-- [ ] Substituir fotos R3 por imagens genéricas otimizadas e preservar compatibilidade Vercel.
-- [ ] Atualizar contato, orçamento WhatsApp e informações de busca sem dados antigos.
-- [ ] Verificar navegação, orçamento e apresentação em computador, tablet e celular.
+- [x] Adaptar identidade, topo e conteúdo de todas as páginas para RTX.
+- [x] Substituir fotos R3 por imagens genéricas otimizadas e preservar compatibilidade Vercel.
+- [x] Atualizar contato, orçamento WhatsApp e informações de busca sem dados antigos.
+- [x] Verificar navegação, orçamento e apresentação em computador, tablet e celular.
