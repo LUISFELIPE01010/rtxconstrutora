@@ -44,7 +44,7 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
     reportLovableError(error, { boundary: "tanstack_root_error_component" });
     // After a new deploy, cached pages may request old files; reload once automatically.
     try {
-      const key = "r3-auto-reload";
+      const key = "rtx-auto-reload";
       const last = Number(sessionStorage.getItem(key) || 0);
       if (Date.now() - last > 30000) {
         sessionStorage.setItem(key, String(Date.now()));
@@ -91,10 +91,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "R3 Usinagem" },
-      { name: "theme-color", content: "#050505" },
+      { name: "author", content: "RTX Construtora" },
+      { name: "theme-color", content: "#0E1B3F" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "R3 Usinagem" },
+      { property: "og:site_name", content: "RTX Construtora" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     scripts: [{ type: "application/ld+json", children: JSON.stringify(organizationSchema) }],
@@ -103,7 +103,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", type: "image/png", href: "/favicon.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" },
     ],
   }),
   shellComponent: RootShell,
